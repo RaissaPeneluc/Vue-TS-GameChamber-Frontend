@@ -52,7 +52,7 @@ const items = ref<MenuProps['items']>([
     </a-page-header>
 
     <main class="bg-amber-950">
-      <section class="bg-amber-600 grid grid-cols-2 justify-between">
+      <section class="bg-amber-600 grid grid-cols-2">
         <div>
           <h1>Find Your Game Tournament Here</h1>
           <p>
