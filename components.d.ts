@@ -9,9 +9,17 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
+    ACard: typeof import('ant-design-vue/es')['Card']
+    ACardMeta: typeof import('ant-design-vue/es')['CardMeta']
+    ACol: typeof import('ant-design-vue/es')['Col']
+    ADivider: typeof import('ant-design-vue/es')['Divider']
     AImage: typeof import('ant-design-vue/es')['Image']
+    ALayout: typeof import('ant-design-vue/es')['Layout']
+    ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
+    ALayoutHeader: typeof import('ant-design-vue/es')['LayoutHeader']
     AMenu: typeof import('ant-design-vue/es')['Menu']
     APageHeader: typeof import('ant-design-vue/es')['PageHeader']
+    ARow: typeof import('ant-design-vue/es')['Row']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
